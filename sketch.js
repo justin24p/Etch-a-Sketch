@@ -18,7 +18,7 @@ document.addEventListener("mouseup", () => {
     isMouseDown = false;
 });
 
-let gridMode = "";
+let gridMode = "grey";
 
 // colorButton.addEventListener("click", () => {
 //     gridMode = "grey";
