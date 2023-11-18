@@ -50,8 +50,14 @@
             padding-bottom: 10px;
             font-size: large;
         }
-    
-        
+        input {
+            height: 50px;
+            width: 150px;
+        }
+        /* Add this style for the input range */
+/* Add this style for the input range color */
+/* Add this style for the input range color */
+
     
     </style>
 </head>
@@ -60,10 +66,14 @@
         <header>Etch-a-Sketch</header>
         <div id="gridContainer"></div> 
         <div class="controls">
-            <button id="1">Color mode</button>
+            <div class="color-picker-container">
+                <input type="color" id="colorpicker">
+            </div>
             <button id="2">Rainbow Mode</button>
             <button id="3">Eraser</button> 
             <button id="4">Clear</button>
+            <input type="range" id="slider" name="slider" min="1" max="100">
+           
         </div> 
     </div>
 </body>
